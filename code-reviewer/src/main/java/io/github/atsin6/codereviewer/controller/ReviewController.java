@@ -13,7 +13,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://ai-code-reviewer-seven-vert.vercel.app",
+    "https://*.vercel.app"
+})
 public class ReviewController {
 
     private final CodeReviewService codeReviewService;
