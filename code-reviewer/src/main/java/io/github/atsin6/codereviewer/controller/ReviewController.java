@@ -16,7 +16,8 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin(origins = {
     "http://localhost:5173",
     "https://ai-code-reviewer-seven-vert.vercel.app",
-    "https://ai-code-reviewer-git-main-atsin6s-projects.vercel.app",
+    "https://ai-code-reviewer-git-main-atsin6s-projects.vercel.app/",
+    "https://ai-code-reviewer-dcss63b1m-atsin6s-projects.vercel.app/",
     "https://*.vercel.app"
 })
 public class ReviewController {
