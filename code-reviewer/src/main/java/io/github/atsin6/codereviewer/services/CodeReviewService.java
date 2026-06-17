@@ -1,9 +1,9 @@
-package io.github.atsin6.codereviewer.service;
+package io.github.atsin6.codereviewer.services;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import io.github.atsin6.codereviewer.model.ReviewRequest;
-import io.github.atsin6.codereviewer.model.ReviewResponse;
+import io.github.atsin6.codereviewer.model.dto.request.ReviewRequest;
+import io.github.atsin6.codereviewer.model.dto.response.ReviewResponse;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;

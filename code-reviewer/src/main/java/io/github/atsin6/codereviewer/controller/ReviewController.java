@@ -1,8 +1,8 @@
 package io.github.atsin6.codereviewer.controller;
 
-import io.github.atsin6.codereviewer.model.ReviewRequest;
-import io.github.atsin6.codereviewer.model.ReviewResponse;
-import io.github.atsin6.codereviewer.service.CodeReviewService;
+import io.github.atsin6.codereviewer.model.dto.request.ReviewRequest;
+import io.github.atsin6.codereviewer.model.dto.response.ReviewResponse;
+import io.github.atsin6.codereviewer.services.CodeReviewService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

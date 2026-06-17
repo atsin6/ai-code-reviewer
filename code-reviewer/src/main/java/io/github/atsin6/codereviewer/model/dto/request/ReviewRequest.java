@@ -1,4 +1,4 @@
-package io.github.atsin6.codereviewer.model;
+package io.github.atsin6.codereviewer.model.dto.request;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
