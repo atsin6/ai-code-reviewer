@@ -4,12 +4,15 @@ import io.github.atsin6.codereviewer.model.entity.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.annotation.Import;
+import io.github.atsin6.codereviewer.config.MongoTestConfig;
 
 import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
+@Import(MongoTestConfig.class)
 class UserRepositoryTest {
 
     @Autowired
